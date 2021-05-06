@@ -1,0 +1,384 @@
+@font-face {
+  font-family: "shabnam";
+  src: url("./fonts/Shabnam.woff2") format("woff2"),
+    url("./fonts/Shabnam.woff") format("woff");
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "shabnam";
+}
+
+* {
+  box-sizing: border-box;
+}
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button {
+  font-family: "shabnam";
+}
+h1,h2,h3,h4{
+  color: #00A680;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.my-header {
+  min-height: 5rem;
+  position: relative;
+}
+.head {
+  min-height: 5rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.download-btn {
+  height: 5rem;
+  width: 6rem;
+}
+.header-waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.d-btn {
+  background-color: rgb(255, 141, 35);
+  border-radius: 4rem;
+}
+.fa-search {
+  font-size: 2.5rem;
+}
+.text-span {
+  font-size: 1.5rem;
+}
+.cm-img {
+  margin-left: 10rem;
+}
+.head,
+.navbar-brand {
+  color: rgb(0, 146, 97) !important;
+}
+
+.navbar-toggler {
+  background-color: rgb(0, 146, 97) !important;
+}
+.logo-section {
+  min-height: 10rem;
+}
+.top-wave-logo {
+  position: relative;
+}
+.top-wave-index {
+  position: absolute;
+  top: 0;
+}
+.top-wave-index > h4{
+  color: #005843;
+}
+.camel-top {
+  width: 5rem;
+  height: 5rem;
+}
+@media screen and (max-width: 770px) {
+  .top-wave-index {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+  }
+  .camel-top {
+    width: 8rem;
+    height: 8rem;
+  }
+  .head {
+    min-height: 5rem;
+    background-color: rgb(194, 194, 194);
+  }
+}
+/* sec-1 */
+.sec-1 {
+  min-height: 20rem;
+}
+.text-head {
+  width: 100%;
+}
+/* sec-2 */
+.sec-2 {
+  min-height: 15rem;
+  position: relative;
+  overflow: hidden;
+}
+#Layer_1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  animation: layer1 10s linear infinite;
+}
+@keyframes layer1 {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(100%);
+  }
+}
+#Layer_2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  animation: layer2 10s linear infinite;
+}
+@keyframes layer2 {
+  0% {
+    transform: translate(-100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+/* sec - 3 */
+.sec-3 {
+  min-height: 30rem;
+}
+
+.icons-row {
+  position: relative;
+  height: 10rem !important;
+}
+@media screen and (min-width: 990px){
+  .icons-row {
+    position: relative;
+    height: 40rem !important;
+  }
+}
+.icon {
+  width: 3.7rem;
+  height: 3.7rem;
+  border: 1px solid rgb(0, 244, 189);
+  border-radius: 50%;
+  background-size: 2.8rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #00a680 !important;
+  z-index: 2000;
+}
+.icon-didani {
+  background-image: url(./img/013_icon_didani.svg);
+  color: #00a680 !important;
+}
+
+.icon-restaurant {
+  background-image: url(./img/014_icon_restaurant.svg);
+}
+
+.icon-hotel {
+  background-image: url(./img/015_icon_hotel.svg);
+}
+
+.icon-fly {
+  background-image: url(./img/016_icon_fly.svg);
+}
+
+.icon-nearme {
+  background-image: url(./img/017_icon_nearme.svg);
+}
+
+.solid-line {
+  position: absolute;
+  height: 110%;
+  border: 1px solid #00f4bd;
+  z-index: -1;
+}
+
+/*             sec4              */
+.sec-4 {
+  min-height: 20rem;
+}
+
+.download-svg {
+  width: 8rem;
+}
+.phone-input {
+  border-radius: 20px !important;
+  height: 2.6rem !important;
+  width: 15rem !important;
+  box-shadow: 5px 5px 10px rgb(192, 192, 192);
+}
+.d-btn-2 {
+  border-radius: 20px !important;
+  height: 2.6rem !important;
+  width: 8rem !important;
+  background-color: rgb(255, 141, 35);
+}
+.d-btn-link {
+  border-radius: 20px !important;
+  height: 2.6rem !important;
+  width: 10rem !important;
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+}
+/* sec 5 */
+.sec-5 {
+  height: 17rem;
+  margin-top: 4rem;
+  background-image: url(./img/023_amadegisafar.jpg);
+}
+.d-btn-ready {
+  border-radius: 20px !important;
+  height: 2.6rem !important;
+  width: 10rem !important;
+  background-color: rgb(247, 140, 0);
+}
+.d-btn-ready-p {
+  height: 3rem;
+}
+.sec5-texts {
+  margin-top: 4px;
+}
+@media screen and (min-width: 800px) {
+  .sec-5 {
+    background-image: url(./img/022_bg_amadegisafar.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+  .sec5-texts {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+}
+/* sec 6 */
+.sec-6 {
+  min-height: 25rem;
+  margin-top: 5rem;
+}
+.slide-show {
+  width: 10px !important;
+  height: 15rem;
+  overflow-x: auto !important;
+}
+.slide-img {
+  border-radius: 15px !important;
+}
+/* slide 7 */
+.sec-7 {
+  min-height: 15rem;
+  margin-top: 1rem;
+}
+.email-input {
+  border-radius: 20px !important;
+  height: 2.6rem !important;
+  width: 25rem !important;
+  box-shadow: 5px 5px 10px rgb(192, 192, 192);
+}
+.email-input::placeholder {
+  text-align: right;
+}
+@media screen and (max-width: 980px) {
+  .sec-7 {
+    background-color: rgba(142, 255, 208, 0.3);
+  }
+}
+.idea-text{
+  color: white!important;
+}
+/*  footer */
+.footer {
+  min-height: 15rem;
+  background-image: url(./img/025_footer_Bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.in-footer {
+  background-image: url(./img/026_footer_c.right_bg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 16rem;
+  width: 30%;
+  background-position: bottom;
+  margin-left: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media screen and (max-width: 980px) {
+  .footer {
+    min-height: 15rem;
+    background-color: #005843;
+    background-image: url(./img/025_footer_Bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.social {
+  height: 10rem;
+}
+.media {
+  color: white;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.8rem;
+  border-radius: 100px;
+  background-color: #00b7ff;
+}
+.insta {
+  background-color: #ff1e74 !important;
+  margin-left: 0;
+}
+
+.footer-links {
+  height: 8rem;
+}
+.camel-inc {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.my-number > a {
+  color: white;
+}
+.my-email > a {
+  color: white;
+}
+@media screen and (min-width: 800px) {
+  .insta {
+    margin-left: 20rem !important;
+  }
+  .footer-links {
+    margin-top: 10rem;
+  }
+  .social {
+    margin-top: 2rem;
+  }
+}
+.in-footer > p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+}
